@@ -1,19 +1,18 @@
-import React from 'react';
-import { City } from './CityWeatherList';
+import { useState } from "react";
+import React from "react";
+import { City, allCities } from "./CityWeatherList";
+
+function SingleCity({ city, onRemove }: { city: City; onRemove: () => void }) {
 
 
-
-function SingleCity({ city }: { city: City }) {
-    
-    function onRemove(){
-        console.log('clicked');
-    }
   return (
     <tr>
-        <td>{city.name}</td>
-        <td>{city.temperature ? city.temperature + '°C': 'Nepoznat' }</td>
-        <td>{city.humidity}</td>
-        <td><button onClick={onRemove}>REMOVE</button></td>
+      <td>{city.name}</td>
+      <td>{city.temperature ? city.temperature + "°C" : "Nepoznat"}</td>
+      <td>{city.humidity}</td>
+      <td>
+        <button onClick={onRemove}>REMOVE</button>
+      </td>
     </tr>
   );
 }

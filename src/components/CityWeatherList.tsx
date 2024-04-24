@@ -33,6 +33,12 @@ export const allCities : City[] = [
         humidity: '55%'
     }
 ]
+function onRemove (){
+    const noviNiz = cities.filter((word) => word.name)
+
+    console.log(' aidjakdajksd');
+}
+
 
 function CityWeatherList(): ReactElement {
   return (
@@ -45,7 +51,7 @@ function CityWeatherList(): ReactElement {
                 <th>DELETE</th>
             </tr>
             {allCities.map((city, index) => (
-        <SingleCity key={index} city={city} />
+        <SingleCity key={index} city={city} onRemove={()=> onRemove(index)}/>
       ))}
         </table>
     </div>
