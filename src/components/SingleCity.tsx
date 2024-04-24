@@ -1,6 +1,5 @@
-import { useState } from "react";
 import React from "react";
-import { City, allCities } from "./CityWeatherList";
+import { City } from "./CityWeatherList";
 
 function SingleCity({ city, onRemove }: { city: City; onRemove: () => void }) {
 
