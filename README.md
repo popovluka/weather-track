@@ -1,15 +1,12 @@
-
-#     # #######    #    ####### #     # ####### ######     ####### ######     #     #####  #    # ####### ######  
-#  #  # #         # #      #    #     # #       #     #       #    #     #   # #   #     # #   #  #       #     # 
-#  #  # #        #   #     #    #     # #       #     #       #    #     #  #   #  #       #  #   #       #     # 
-#  #  # #####   #     #    #    ####### #####   ######        #    ######  #     # #       ###    #####   ######  
-#  #  # #       #######    #    #     # #       #   #         #    #   #   ####### #       #  #   #       #   #   
-#  #  # #       #     #    #    #     # #       #    #        #    #    #  #     # #     # #   #  #       #    #  
- ## ##  ####### #     #    #    #     # ####### #     #       #    #     # #     #  #####  #    # ####### #     # 
-
 # Vremenska prognoza za gradove
 
 Ova React TypeScript aplikacija omogućava vam praćenje vremenske prognoze za različite gradove. Možete dodavati gradove, videti trenutnu temperaturu i vlažnost vazduha, kao i premještati gradove na vrh liste ili ih ukloniti.
+
+
+  _      __         __  __            ______             __          
+ | | /| / ___ ___ _/ /_/ / ___ ____  /_  _________ _____/ /_____ ____
+ | |/ |/ / -_/ _ `/ __/ _ / -_/ __/   / / / __/ _ `/ __/  '_/ -_/ __/
+ |__/|__/\__/\_,_/\__/_//_\__/_/     /_/ /_/  \_,_/\__/_/\_\\__/_/   
 
 ## Kako koristiti
 
