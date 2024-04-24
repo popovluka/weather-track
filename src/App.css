@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+table, th, td, button {
+  color: white;
+  border:1px solid white;
+  text-align: center;
+  background-color: rgb(106, 167, 192);
+}
+
+th, td {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+button {
+  border-width: 0;
+}
