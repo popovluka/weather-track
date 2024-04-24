@@ -1,11 +1,13 @@
 import React from 'react';
 import { City } from './CityWeatherList';
 
-function onRemove(){
-    console.log('clicked');
-}
+
 
 function SingleCity({ city }: { city: City }) {
+    
+    function onRemove(){
+        console.log('clicked');
+    }
   return (
     <tr>
         <td>{city.name}</td>
