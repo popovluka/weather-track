@@ -6,7 +6,7 @@ import CityWeatherList from './components/CityWeatherList';
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <CityWeatherList />
     </div>
   );

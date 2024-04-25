@@ -23,3 +23,5 @@ Ova React TypeScript aplikacija omogućava vam praćenje vremenske prognoze za r
 - **Stanje aplikacije:** Stanje aplikacije se upravlja koristeći React-ov Hook `useState` radi praćenja dodatih gradova i ažuriranja liste.
 - **Interakcija sa korisnikom:** Korisnička interakcija omogućena je putem interaktivnih elemenata poput dugmadi za dodavanje i uklanjanje gradova, kao i premještanje na vrh liste.
 
+## Autor README.MD : ChatGPT :D
+
